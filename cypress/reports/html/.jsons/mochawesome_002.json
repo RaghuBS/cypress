@@ -1,0 +1,285 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-20T09:37:26.268Z",
+    "end": "2024-02-20T09:38:19.756Z",
+    "duration": 53488,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0f3548c1-cee2-426e-93d3-ae29bbbf0bf8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\3-FixturessampleFiles\\AddEmployee.cy.js",
+      "file": "cypress\\e2e\\3-FixturessampleFiles\\AddEmployee.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "157686fe-2378-422c-9f53-f25e3d1e2dd0",
+          "title": "add employee data",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "0da257a1-b07e-4f88-846e-5a0c828333a7",
+              "title": "1",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "add multiple employees",
+                  "fullTitle": "add employee data 1 add multiple employees",
+                  "timedOut": null,
+                  "duration": 13791,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\AddEmployee.cy.js\"\n}",
+                  "code": "cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');\ncy.get(_loginDetails.default.username()).type(\"admin\");\ncy.get(_loginDetails.default.password()).type(\"admin123\");\ncy.get(_loginDetails.default.submitbutton).click();\ncy.contains(_addemp.default.PIM()).click();\ncy.contains(_addemp.default.AddEmployee()).click();\ncy.get(_addemp.default.firstname()).type(this.data.firstname);\ncy.get(_addemp.default.lastname()).type(this.data.lastname);\n//cy.get(addemployee.empid).type(this.data.empid)\ncy.get(_addemp.default.submit()).click();",
+                  "err": {},
+                  "uuid": "c06805ab-41b1-4af1-af1a-495f7dea5896",
+                  "parentUUID": "0da257a1-b07e-4f88-846e-5a0c828333a7",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c06805ab-41b1-4af1-af1a-495f7dea5896"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 13791,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "3198ba77-6c04-4580-9590-44e2eb205dfb",
+              "title": "2",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "add multiple employees",
+                  "fullTitle": "add employee data 2 add multiple employees",
+                  "timedOut": null,
+                  "duration": 9031,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\AddEmployee.cy.js\"\n}",
+                  "code": "cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');\ncy.get(_loginDetails.default.username()).type(\"admin\");\ncy.get(_loginDetails.default.password()).type(\"admin123\");\ncy.get(_loginDetails.default.submitbutton).click();\ncy.contains(_addemp.default.PIM()).click();\ncy.contains(_addemp.default.AddEmployee()).click();\ncy.get(_addemp.default.firstname()).type(this.data.firstname);\ncy.get(_addemp.default.lastname()).type(this.data.lastname);\n//cy.get(addemployee.empid).type(this.data.empid)\ncy.get(_addemp.default.submit()).click();",
+                  "err": {},
+                  "uuid": "867e7d83-c861-40da-b85d-14f90caf9d29",
+                  "parentUUID": "3198ba77-6c04-4580-9590-44e2eb205dfb",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "867e7d83-c861-40da-b85d-14f90caf9d29"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 9031,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "43bc8a0a-894b-4dce-aa8e-a018a4d6cd8d",
+              "title": "3",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "add multiple employees",
+                  "fullTitle": "add employee data 3 add multiple employees",
+                  "timedOut": null,
+                  "duration": 8668,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\AddEmployee.cy.js\"\n}",
+                  "code": "cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');\ncy.get(_loginDetails.default.username()).type(\"admin\");\ncy.get(_loginDetails.default.password()).type(\"admin123\");\ncy.get(_loginDetails.default.submitbutton).click();\ncy.contains(_addemp.default.PIM()).click();\ncy.contains(_addemp.default.AddEmployee()).click();\ncy.get(_addemp.default.firstname()).type(this.data.firstname);\ncy.get(_addemp.default.lastname()).type(this.data.lastname);\n//cy.get(addemployee.empid).type(this.data.empid)\ncy.get(_addemp.default.submit()).click();",
+                  "err": {},
+                  "uuid": "2f625034-41c6-4c9a-9ddf-d5417ce9e2ba",
+                  "parentUUID": "43bc8a0a-894b-4dce-aa8e-a018a4d6cd8d",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "2f625034-41c6-4c9a-9ddf-d5417ce9e2ba"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 8668,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "96f55a48-3661-4d6a-b332-1984df76c2f8",
+              "title": "4",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "add multiple employees",
+                  "fullTitle": "add employee data 4 add multiple employees",
+                  "timedOut": null,
+                  "duration": 12294,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\AddEmployee.cy.js\"\n}",
+                  "code": "cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');\ncy.get(_loginDetails.default.username()).type(\"admin\");\ncy.get(_loginDetails.default.password()).type(\"admin123\");\ncy.get(_loginDetails.default.submitbutton).click();\ncy.contains(_addemp.default.PIM()).click();\ncy.contains(_addemp.default.AddEmployee()).click();\ncy.get(_addemp.default.firstname()).type(this.data.firstname);\ncy.get(_addemp.default.lastname()).type(this.data.lastname);\n//cy.get(addemployee.empid).type(this.data.empid)\ncy.get(_addemp.default.submit()).click();",
+                  "err": {},
+                  "uuid": "ef813bec-02f6-4757-bc64-37f89f82d3b4",
+                  "parentUUID": "96f55a48-3661-4d6a-b332-1984df76c2f8",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "ef813bec-02f6-4757-bc64-37f89f82d3b4"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 12294,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "b768a124-f59e-4ef2-b401-23fe060071d2",
+              "title": "5",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "add multiple employees",
+                  "fullTitle": "add employee data 5 add multiple employees",
+                  "timedOut": null,
+                  "duration": 9089,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\AddEmployee.cy.js\"\n}",
+                  "code": "cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');\ncy.get(_loginDetails.default.username()).type(\"admin\");\ncy.get(_loginDetails.default.password()).type(\"admin123\");\ncy.get(_loginDetails.default.submitbutton).click();\ncy.contains(_addemp.default.PIM()).click();\ncy.contains(_addemp.default.AddEmployee()).click();\ncy.get(_addemp.default.firstname()).type(this.data.firstname);\ncy.get(_addemp.default.lastname()).type(this.data.lastname);\n//cy.get(addemployee.empid).type(this.data.empid)\ncy.get(_addemp.default.submit()).click();",
+                  "err": {},
+                  "uuid": "261a93ff-2ea0-4244-83b2-8425c8062563",
+                  "parentUUID": "b768a124-f59e-4ef2-b401-23fe060071d2",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "261a93ff-2ea0-4244-83b2-8425c8062563"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 9089,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

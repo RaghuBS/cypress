@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-20T09:38:51.932Z",
+    "end": "2024-02-20T09:39:06.104Z",
+    "duration": 14172,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b49f554c-2105-49d7-bdac-ead7a02f0482",
+      "title": "",
+      "fullFile": "cypress\\e2e\\3-FixturessampleFiles\\fixtures exm2.cy.js",
+      "file": "cypress\\e2e\\3-FixturessampleFiles\\fixtures exm2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "adc3253b-6594-4c2b-b316-50438854bdf0",
+          "title": "Fixture example2",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "user already rigster",
+              "fullTitle": "Fixture example2 user already rigster",
+              "timedOut": null,
+              "duration": 10366,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\fixtures exm2.cy.js\"\n}",
+              "code": "cy.visit('https://shop.demoqa.com/my-account/');\ncy.get(\"#reg_username\").type(this.data.username);\ncy.get(\"#reg_email\").type(this.data.email);\ncy.get(\"#reg_password\").type(this.data.Weakpassword);\ncy.get(\".woocommerce-Button\").should(\"be.disabled\");\n//or\ncy.get(\".woocommerce-Button\").should(\"have.attr\", \"disabled\", \"disabled\");\n// cy.get(\"#reg_password\").clear()\n// cy.get(\"#reg_password\").type(this.data.strongpassword)\n// or\ncy.get(\"#reg_password\").clear().type(this.data.strongpassword);\ncy.get(\".show-password-input\").click;\n//cy.wait(10000)\ncy.get(\".woocommerce-Button\").click();\ncy.get(\"#username\").should(\"have.attr\", \"value\", this.data.username);\n//or\ncy.get(\"#username\").should(\"have.value\", this.data.username);\ncy.contains(\"Error:\").should(\"be.visible\");",
+              "err": {},
+              "uuid": "508269d0-0948-4f5c-a769-467bf1a8945b",
+              "parentUUID": "adc3253b-6594-4c2b-b316-50438854bdf0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "508269d0-0948-4f5c-a769-467bf1a8945b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10366,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

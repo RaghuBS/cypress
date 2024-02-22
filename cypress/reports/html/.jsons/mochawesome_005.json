@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-20T09:39:10.052Z",
+    "end": "2024-02-20T09:39:17.668Z",
+    "duration": 7616,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3c50dc8a-8c54-4530-a079-52cd31e07bb0",
+      "title": "",
+      "fullFile": "cypress\\e2e\\3-FixturessampleFiles\\rediflogin.cy.js",
+      "file": "cypress\\e2e\\3-FixturessampleFiles\\rediflogin.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "038e3b10-9278-49d4-86fd-8da482849e3e",
+          "title": "Login to Rediff",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should log in with valid credentials",
+              "fullTitle": "Login to Rediff should log in with valid credentials",
+              "timedOut": null,
+              "duration": 4461,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\3-FixturessampleFiles\\\\rediflogin.cy.js\"\n}",
+              "code": "cy.visit(\"https://register.rediff.com/register/register.php?FormName=user_details\");\n//cy.contains(data1.logo).should(\"be.visible\")\ncy.get(_redifflogindata.default.username()).type(_redifdata.default.username);\ncy.get(_redifflogindata.default.mailid()).type(_redifdata.default.mailid);\ncy.get(_redifflogindata.default.password()).type(_redifdata.default.password);\ncy.get(_redifflogindata.default.retypwpassword()).type(_redifdata.default.retypwpassword);\ncy.get(_redifflogindata.default.altermail()).type(_redifdata.default.altermail);\ncy.get(_redifflogindata.default.submit()).click();",
+              "err": {},
+              "uuid": "b4b43ca2-dd60-4f6e-b00d-dcb6daa8ce86",
+              "parentUUID": "038e3b10-9278-49d4-86fd-8da482849e3e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b4b43ca2-dd60-4f6e-b00d-dcb6daa8ce86"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4461,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

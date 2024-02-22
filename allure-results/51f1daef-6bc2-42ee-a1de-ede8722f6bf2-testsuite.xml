@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1708423194553' stop='1708423231331'>
+    <name>Fixture example</name>
+    <title>Fixture example</title>
+    <test-cases>
+        <test-case start='1708423194553' status='passed' stop='1708423231331'>
+            <name>user already rigster</name>
+            <title>user already rigster</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

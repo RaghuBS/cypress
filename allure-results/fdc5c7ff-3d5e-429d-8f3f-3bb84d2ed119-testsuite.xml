@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1708423182963' stop='1708423190951'>
+    <name>add employee data 5</name>
+    <title>add employee data 5</title>
+    <test-cases>
+        <test-case start='1708423182996' status='passed' stop='1708423190951'>
+            <name>add multiple employees</name>
+            <title>add multiple employees</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
